@@ -5,4 +5,11 @@ body{
 section{
     color: white;
     font-size: 2em;
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color:black;
+    overflow: auto;
+    height: auto;
 }
