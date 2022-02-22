@@ -1,15 +1,84 @@
-body{
-    background-color: black;
+
+
+body {
+    min-width:100vh; 
+    min-height:100vh;
+    background-color: rgb(160, 203, 211);
+
 }
 
-section{
-    color: white;
+nav.nav-bar{
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 37px;
+}
+
+.nav-bar a{
+    margin-left: 50px;
+}
+
+/* .songs {
+    padding: 0px 2;
+
+} */
+
+#song-col{
+    position:relative;
+	top: 150px;
+    left: 100px;
+	height:100%;
+}
+
+#album-col{
+    position:relative;
+	top: 50px;
+    left: 100px;
+	height:100%;
+}
+
+#artist-col{
+    position:relative;
+	top: 250px;
+    left: 100px;
+	height:100%;
+}
+
+.img-songs img{ 
+    width:230px;
+    height:230px;
+    margin-right:50px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+.overlay {
+    background: rgba(4,125,67,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  a:hover .overlay {
+    opacity: 1;
+  }
+/* .nab-bar a{
+    color: blue;
     font-size: 2em;
     display: flex;
     position: fixed;
     top:0;
     width: 100%;
-    background-color:black;
     overflow: auto;
     height: auto;
-}
+} */
+
